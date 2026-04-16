@@ -3,10 +3,8 @@
   "wake_word": "Hej domek",
   "author": "Tomek",
   "website": "",
-  "model": "./stream_state_internal_quant.tflite",
-  "trained_languages": [
-    "pl"
-  ],
+  "model": "hej_domek_v2.tflite",
+  "trained_languages": ["pl"],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.5,
