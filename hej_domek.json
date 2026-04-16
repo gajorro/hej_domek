@@ -3,7 +3,7 @@
   "wake_word": "Hej domek",
   "author": "Tomek",
   "website": "",
-  "model": "./hej_domek.tflite",
+  "model": "hej_domek.tflite",
   "trained_languages": ["pl"],
   "version": 2,
   "micro": {
