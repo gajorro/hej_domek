@@ -1,16 +1,13 @@
 {
   "type": "micro",
-  "wake_word": "Hej domek",
+  "wake_word": "hej_domek",
   "author": "Tomek",
   "website": "",
   "model": "hej_domek.tflite",
   "trained_languages": ["pl"],
-  "version": 2,
+  "version": 1,
   "micro": {
     "probability_cutoff": 0.5,
-    "sliding_window_size": 5,
-    "feature_step_size": 10,
-    "tensor_arena_size": 22860,
-    "minimum_esphome_version": "2026.3.3"
+    "sliding_window_size": 10
   }
 }
